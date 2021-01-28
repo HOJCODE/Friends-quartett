@@ -6,4 +6,6 @@
 
 **Friends-app** - Tiny social media friends search page 
 with user cards, search, sorting and filtering by age, name, etc. 
-Using the [Random User API](https://randomuser.me/).
+Using the [Random User API](https://randomuser.me/). <br>
+
+[Demo](https://ik-web.github.io/friends-app/)
