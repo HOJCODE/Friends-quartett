@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/-html-red" alt="html">
   <img src="https://img.shields.io/badge/-css-blue" alt="css">
   <img src="https://img.shields.io/badge/-javascript-yellow" alt="javascript">
+  <img src="https://img.shields.io/badge/-parcel-lightyellow" alt="parcel">
 </p>
 
 <p align="center">
