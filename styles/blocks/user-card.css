@@ -1,0 +1,81 @@
+.userCard {
+  padding: 10px;
+}
+
+.userCard__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 225px;
+  height: 335px;
+  padding-bottom: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--card-bg-color);
+  transition: box-shadow .25s linear;
+  cursor: pointer;
+}
+
+.userCard__inner:hover {
+  box-shadow: 1px 1px 8px 3px #888787;
+}
+
+.userCard__userName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  font-size: 18px;
+  color: var(--header-content-color);
+  text-shadow: 0 1px 4px #000;
+  background: var(--header-bg-color);
+  border-radius: 10px 10px 0 0;
+}
+
+.userCard__userPhotoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-color: var(--photo-bg-color);
+  border-radius: 50%;
+}
+
+.userCard__userPhoto {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.userCard__userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 90px;
+}
+
+.userInfo__item {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.userInfo__item:hover {
+  text-shadow: 0 0 12px black;
+}
+
+.userInfo__item--mail {
+  font-size: 12px;
+}
+
+@media (max-width: 991px) {
+
+  .userCard__inner:hover {
+      box-shadow: none;
+  }
+}

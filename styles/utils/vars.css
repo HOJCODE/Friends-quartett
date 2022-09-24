@@ -1,0 +1,13 @@
+:root {
+  --text-color: #303030;
+  --body-bg-color: #e4e3e3;
+  --header-bg-color: linear-gradient(#00ffff, #9198e5);
+  --header-content-color: #fff;
+  --aside-bg-color:#c5c2c2;
+  --card-bg-color: #fff;
+  --photo-bg-color: #00c3ff;
+  --border-color: #6d6d6d;
+  --btn-bg-color: #76c8d6;
+  --btn-bg-hover-color: #77ffff;
+  --btn-bg-active-color: #9198e5;
+}

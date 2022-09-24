@@ -18,7 +18,7 @@
 
 *Practical work on the Kottans front-end course*
 
-**Friends-app** - Tiny social media friends search page <br>
+**Friends App** - Tiny social media friends search page <br>
 with user cards, search, sorting and filtering by age, name, etc. <br>
 Using the [Random User API](https://randomuser.me/).
 

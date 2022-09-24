@@ -1,0 +1,20 @@
+.usersBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 80px 5px 20px 247px;
+  width: 100%;
+}
+
+.usersBox__message {
+  margin-top: 25vh;
+  font-size: 28px;
+  color: var(--text-color);
+}
+
+@media (max-width: 991px) {
+
+  .usersBox {
+      padding-left: 5px;
+  }
+}
